@@ -1,0 +1,33 @@
+img {
+    width: 100%;
+}
+
+.all {
+    margin: 100px auto;
+    width: 1440px;
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1400px;
+    padding-top: 100px;
+    
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+
+}
+
+.content {
+    width: 375px;
+    margin: 0 auto;
+    
+    background-color: aliceblue;
+}
+
+.image {}
+
+.text {
+    width: 100%;
+    text-align: center;
+}
