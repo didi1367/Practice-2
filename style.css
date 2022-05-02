@@ -1,33 +1,128 @@
-img {
-    width: 100%;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('./images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .all {
-    margin: 100px auto;
+    margin: auto;
     width: 1440px;
     background-image: url('images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 1400px;
-    padding-top: 100px;
-    
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 90vw;
+    max-width: 90%;
+    min-height: 95vh;
+    max-height: 100%;
+    background-color: hsl(225, 100%, 94%);
 
 
 }
 
 .content {
     width: 375px;
-    margin: 0 auto;
-    
-    background-color: aliceblue;
+    background-color: white;
+    border-radius: 15px;
 }
 
-.image {}
+img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+
+}
 
 .text {
-    width: 100%;
+    padding: 2.9rem;
     text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: larger;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 15px;
+}
+
+p {
+    font-weight: 100;
+    font-size: .8rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.payinfo {
+    font-weight: 700;
+    color: hsl(245, 81%, 8%);
+}
+
+a {
+    color: hsl(245, 75%, 52%);
+    font-size: smaller;
+}
+
+a:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.452);
+}
+
+.info-cost-select {
+    margin: 0.5rem auto;
+    padding: 0 1rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftsidepayment-eleman {
+    display: flex;
+    align-items: center;
+}
+
+.info-cost {
+    margin: 15px 0;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.paybotton {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    background-color: hsl(245, 75%, 52%);
+    margin: 30px auto;
+    padding: 18px;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.5s;
+}
+
+.paybotton:hover {
+    background-color: hsla(245, 75%, 52%, 0.568);
+    ;
+}
+
+span {
+    color: hsl(224, 23%, 55%);
+    font-size: smaller;
+}
+
+span:hover {
+    color: hsl(223, 47%, 23%);
 }
