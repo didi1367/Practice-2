@@ -16,7 +16,6 @@ body {
     background-image: url('images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
